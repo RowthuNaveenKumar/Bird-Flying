@@ -24,7 +24,7 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-image: url(./background.avif);
+    background-image: url(./images/background.avif);
     background-size: cover;
     transition: 1s;
     border-radius: 10px;
@@ -53,9 +53,9 @@ body {
 
 @keyframes animate{
     from{
-        background-image: url(./bird1.png);
+        background-image: url(./images/bird1.png);
     }
     to{
-        background-image: url(./bird2.png);
+        background-image: url(./images/bird2.png);
     }
 }
